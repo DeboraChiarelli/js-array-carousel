@@ -7,3 +7,15 @@ console.log(imgs);
 const activeImg = 0;
 //- creare collegamento al DOM
 const containerDomElement = document.querySelector('.container');
+console.log(imgs);
+//- creare ciclo for
+for (let i = 0; i < imgs.length; i++) {
+    const imgsPath = imgs[i];
+    console.log(imgsPath);
+    const htmlString = `<div> img src="${imgsPath}"</div>`;
+    
+    console.log(htmlString);
+    containerDomElement.innerHTML += htmlString 
+}
+
+
