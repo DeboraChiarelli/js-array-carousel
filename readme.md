@@ -26,3 +26,4 @@ Al click dell’utente sulle frecce, il programma cambierà l’immagine attiva,
         - solo la prima img sarà visibile
             - creare una classe specifica
 - creare click per cambiare l'immagine attiva
+- 
