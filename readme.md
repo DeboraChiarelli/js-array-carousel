@@ -11,12 +11,15 @@ Al click dell’utente sulle frecce, il programma cambierà l’immagine attiva,
 
 
 # Carosello (con scorrimento di imgs, attraverso due pulsanti posti in alto e in basso su ogni img)
-- creare un array
-    - cinque immagini
-- creare markup statico
-    - costruire container 
-    - inserire img grande al centro
+
+- creare markup statico in html
+    - costruire container
+        - aprire un tag <div> cui assegnare un container
+        - inserire img grande al centro
 - rimuovere markup statico
+    - creare un array
+        - creare una variabile
+        - assegnare alla variabile un valore tra [] in cui inserire le cinque immagini
     - inserire imgs dinamicamente con l'array
         - creare collegamento al DOM
     - creare un ciclo for per concatenare un template literal
