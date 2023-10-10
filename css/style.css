@@ -8,6 +8,13 @@
     margin: 0 auto;
     max-width: 500px;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container > * {
+    display: none;
 }
 
 img {

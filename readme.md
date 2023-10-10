@@ -21,6 +21,7 @@ Al click dell’utente sulle frecce, il programma cambierà l’immagine attiva,
         - creare una variabile
         - assegnare alla variabile un valore tra [] in cui inserire le cinque immagini
     - inserire imgs dinamicamente con l'array
+    - creare una costante che mi dica quale img è attiva
         - creare collegamento al DOM
     - creare un ciclo for per concatenare un template literal
         - solo la prima img sarà visibile
