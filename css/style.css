@@ -11,31 +11,38 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    position: relative;
 }
 
 img {
     max-width: 100%;
 }
 
-.slide-img {
-    width: 100%;
+/*.slide-img {
+    
+}*/
+
+.image {
     display: none;
+    width: 100%;
     aspect-ratio: 21/9;
     object-fit: contain;
 }
 
-.slide-img.active {
+.active {
     display: block;
 }
 
-.slide-container {
-    position: relative;
-}
+/*.slide-container {
+    
+}*/
 
 .icon {
     position: absolute;
     z-index: 50;
-    color: white;
+    width: 40px;
+    height: 40px;
+    color: black;
 }
 
 .icon-up {
@@ -43,7 +50,7 @@ img {
     top: 0;
 }
 
-.icon-down {
+.icon-down {   
     right: 50%;
     bottom: 0;
 }
