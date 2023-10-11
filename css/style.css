@@ -6,18 +6,44 @@
 
 .container {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 900px;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.container > * {
-    display: none;
-}
-
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
+.slide-img {
+    width: 100%;
+    display: none;
+    aspect-ratio: 21/9;
+    object-fit: contain;
+}
+
+.slide-img.active {
+    display: block;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    z-index: 50;
+    color: white;
+}
+
+.icon-up {
+    right: 50%;
+    top: 0;
+}
+
+.icon-down {
+    right: 50%;
+    bottom: 0;
+}
